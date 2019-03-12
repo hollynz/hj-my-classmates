@@ -13,6 +13,6 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 p{
-    color:aquamarine;
+    color: #a8a8a8;
 }
 </style>
