@@ -1,6 +1,11 @@
 <template>
   <div class="header">
-    <nav class="nav">check</nav>
+    <nav class="nav">
+      <ul>
+        <li><router-link v-bind:to="'/home'" exact>Home</router-link></li>
+        <li><router-link v-bind:to="'/geoffscomponent'" exact>Geoffs Component</router-link></li>
+      </ul>
+    </nav>
   </div>
 </template>
 
