@@ -4,6 +4,7 @@
       <ul>
         <li><router-link v-bind:to="'/home'" exact>Home</router-link></li>
         <li><router-link v-bind:to="'/geoffscomponent'" exact>Geoffs Component</router-link></li>
+        <li><router-link v-bind:to="'/jeremy'">Jeremy</router-link></li>
       </ul>
     </nav>
   </div>
