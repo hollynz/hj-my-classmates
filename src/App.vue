@@ -7,15 +7,11 @@
 
 <script>
 import MyHeader from "./components/MyHeader";
-import GeoffsComponent from "./components/Geoff/GeoffsComponent";
-import Home from "./components/Home";
 
 export default {
   name: "App",
   components: {
-    MyHeader,
-    GeoffsComponent,
-    Home
+    MyHeader
   }
 };
 </script>
