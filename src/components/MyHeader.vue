@@ -1,6 +1,10 @@
 <template>
   <div class="header">
-    <nav class="nav">check</nav>
+    <nav class="nav">
+      <ul>
+      <li><router-link v-bind:to="'/'">Jeremy</router-link></li>
+      
+    </ul></nav>
   </div>
 </template>
 
