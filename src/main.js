@@ -1,12 +1,19 @@
 import Vue from "vue";
 import App from "./App.vue";
 import VueRouter from "vue-router";
+import MyHeader from "./components/MyHeader";
+import GeoffsComponent from "./components/Geoff/GeoffsComponent";
+import Home from "./components/Home.vue"
+
 
 Vue.config.productionTip = false;
 
 Vue.use(VueRouter);
 
-const routes = [];
+const routes = [
+  { path: "/", component: Home},
+  { path: "/geoffscomponent", component: GeoffsComponent }
+];
 
 const router = new VueRouter({
   routes,
